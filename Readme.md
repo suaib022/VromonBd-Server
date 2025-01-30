@@ -1,13 +1,14 @@
 # **Instruction**
 
-**Step - 1:** Create an `eslint.config.mjs` and copy the code from: 
-<br> 
+**Step - 1:** Create an `eslint.config.mjs` and copy the code from:
+<br>
 [Eslint File](https://github.com/ShafiaChy/Eslint-Config-Setup/blob/main/eslint.config.mjs)
 <br>
 
-*Delete the files `eslintrc` and `.eslintignore`*
+_Delete the files `eslintrc` and `.eslintignore`_
 
 **Step - 2:** Copy/paste the following lines and paste inside `script` in `package.json` code from given in the package.json
+
 ```
 
     "lint": "npx eslint src --ignore-pattern .ts",
@@ -29,7 +30,7 @@
 
 <br>
 
-*If prettier does not work*, follow step 4:
+_If prettier does not work_, follow step 4:
 
 **Step - 4:** Add the code below to the `settings.json` file:
 
@@ -39,11 +40,3 @@
 ```
 
 <br>
-
-
------------------------------------------------------
-
-Credits : 1.https://github.com/ProgrammingHero1
-          2.https://github.com/ShafiaChy
-
------------------------------------------------------
